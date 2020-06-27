@@ -91,5 +91,5 @@ export const login = (email, password) => async (dispatch) => {
 
 //Logout /Clear profile
 export const logout = () => (dispatch) => {
-	dispatech({ type: LOGOUT });
+	dispatch({ type: LOGOUT });
 };
